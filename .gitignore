@@ -1,0 +1,64 @@
+﻿# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*~
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# User Secrets (IMPORTANTE - NO subir credenciales)
+secrets.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# EF Core Migrations 
+**/Migrations/
+**/Migrations/**/*.cs
+**/Migrations/**/*.Designer.cs
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+
+# Archivos sensibles - NO subir credenciales reales
+**/appsettings.Production.json
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.orig
+
+# Documentación local
+*.md
+
+# Rider settings
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
